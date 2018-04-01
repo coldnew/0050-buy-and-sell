@@ -1,5 +1,7 @@
 # 台股 0050 ETF 買賣追蹤系統
 
+構想: 參考 [施昇輝](http://search.books.com.tw/search/query/key/%E6%96%BD%E6%98%87%E8%BC%9D/adv_author/1/) 的 0050 投資術，建立一個專門針對0050 ETF 的買賣提示頁面。
+
 TODO
 
 ## 0050 相關連結
