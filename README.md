@@ -6,8 +6,9 @@ TODO
 
 ## 構想
 
-- [ ] 基本資訊判讀
-- [ ] 基本網頁建立 (static site)
+- [ ] 基本資訊判讀 (KD, 大盤, K < 20 買, K > 80 賣)
+- [ ] 基本網頁建立 (static site) -> 送到gh-page去
+- [ ] admin panel ?
 - [ ] 透過 Telegram Channel 發布訊息
 - [ ] 除息日通知
 - [ ] 成分股變更通知
