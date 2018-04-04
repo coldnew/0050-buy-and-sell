@@ -13,6 +13,20 @@ TODO
 - [ ] 成分股變更通知
 - [ ] 買賣通知
 
+## 開發與執行
+
+使用以下命令搭配 nrepl 開發, 會產生HTTP伺服器在 http://127.0.0.1:3000
+
+``` shell
+boot dev
+```
+
+產生目標 jar 檔案的話，則使用
+
+``` shell
+boot prod
+```
+
 ## 0050 相關連結
 
 - [台灣證券交易所 - 元大台灣卓越50基金](http://www.twse.com.tw/zh/ETF/fund/0050)

@@ -1,3 +1,4 @@
 {:require  [tw0050.app]
  :init-fns [tw0050.app/init]
+ :boot-reload {:on-jsload tw0050.app/init}
  :compiler-options {:asset-path "js/app.out"}}
