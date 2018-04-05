@@ -10,6 +10,7 @@ TODO
 - [ ] 基本網頁建立 (static site) -> 送到gh-page去
 - [ ] admin panel ?
 - [ ] 透過 Telegram Channel 發布訊息 (telegra.ph ?)
+- [ ] 值利率計算 (風險)
 - [ ] 除息日通知
 - [ ] 成分股變更通知
 - [ ] 買賣通知
