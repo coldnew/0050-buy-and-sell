@@ -1,0 +1,33 @@
+#+TITLE: 0050 買賣追蹤系統 - 開發日誌
+#+AUTHOR: Yen-Chin, Lee <coldnew>
+
+* 構想
+
+ 參考 [[http://search.books.com.tw/search/query/key/%25E6%2596%25BD%25E6%2598%2587%25E8%25BC%259D/adv_author/1/][施昇輝]] 的 0050 投資術，建立一個專門針對 0050 ETF 的買賣提示頁面。
+
+ 其中，因為我懶得看大盤的 KD 值，因此需要有一個 bot 可以自動推送算完的結果到 Telegram Channel 去。
+
+ 另外，根據計算的結果建立靜態頁面丟到 gh-page 去，提供給其他人參考。
+
+* TODO 代辦清單
+
+- [ ] 基本資訊判讀 (KD, 大盤, K < 20 買, K > 80 賣)
+- [ ] AI 回策抓合適的 KD 值 (另外一種策略 ?)
+- [ ] 基本網頁建立 (static site) -> 送到 gh-page 去
+- [ ] 歷史回策結果 -> 像 blog 那樣保留過去的結果並以 static site 呈現
+- [ ] admin panel ? (我在本地伺服器可以用的控制台)
+- [ ] 透過 Telegram Channel 發布訊息 (telegra.ph ?)
+- [ ] 值利率計算 (風險)
+- [ ] 除息日通知
+- [ ] 成分股變更通知
+- [ ] 買賣通知
+
+* 參考 GitHub Repo
+
+列出開發過程中參考的一些 GitHub repo:
+
+** mobetat49008/python_option
+
+url: https://github.com/mobetat49008/python_option
+
+README 裡面有拉出一些證交所 API 的說明，值得參考一下。
