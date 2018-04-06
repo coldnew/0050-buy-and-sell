@@ -10,7 +10,10 @@
                  [weasel                    "0.7.0"      :scope "test"]
                  [org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.10.238"]
-                 [ring "1.5.1"]])
+                 [ring "1.5.1"]
+                 [clj-http "3.8.0"]
+                 [hickory "0.7.1"]
+                 [cheshire "5.8.0"]])
 
 (task-options!
  pom {:project 'tw0050
