@@ -28,6 +28,12 @@
 
 - [[http://www.p-shares.com/#/FundWeights/1066][元大台灣卓越50基金 - 詳細基金成份股]]
 
+* TODO 繪圖選擇
+
+可能還是需要繪製大盤和0050相關走勢圖，需要作一個選擇:
+
+- [ ] [[https://tw.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/][TradingView]]
+
 * 參考 Repo
 
 列出開發過程中參考的一些 Repo:
