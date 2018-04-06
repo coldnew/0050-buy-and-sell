@@ -1,14 +1,16 @@
 # 台股 0050 ETF 買賣追蹤系統
 
-構想: 參考 [施昇輝](http://search.books.com.tw/search/query/key/%E6%96%BD%E6%98%87%E8%BC%9D/adv_author/1/) 的 0050 投資術，建立一個專門針對0050 ETF 的買賣提示頁面。
+基本構想: 參考 [施昇輝](http://search.books.com.tw/search/query/key/%E6%96%BD%E6%98%87%E8%BC%9D/adv_author/1/) 的 0050 投資術，建立一個專門針對0050 ETF 的買賣提示頁面。
 
 TODO
 
 ## 構想
 
 - [ ] 基本資訊判讀 (KD, 大盤, K < 20 買, K > 80 賣)
+- [ ] AI 回策抓合適的 KD 值 (另外一種策略 ?)
 - [ ] 基本網頁建立 (static site) -> 送到gh-page去
-- [ ] admin panel ?
+- [ ] 歷史回策結果 -> 像 blog 那樣保留過去的結果並以static site 呈現
+- [ ] admin panel ? (我在本地伺服器可以用的控制台)
 - [ ] 透過 Telegram Channel 發布訊息 (telegra.ph ?)
 - [ ] 值利率計算 (風險)
 - [ ] 除息日通知
