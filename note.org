@@ -47,3 +47,12 @@ README 裡面有拉出一些證交所 API 的說明，值得參考一下。
 url: https://www.slideshare.net/tw_dsconf/r-71023024
 
 雖然是在講R語言，但是有些觀念還是值得看一下的。
+* 參考文章
+
+** 標題 Re: [其他] 0050 無腦買 + 現金配置 回測結果
+
+URL: https://www.ptt.cc/bbs/Stock/M.1520749148.A.37F.html
+
+#+BEGIN_EXAMPLE
+不過隨著買的時間拉長， 排除投資期間尚未拉長的前 3 年，IRR 的確蠻穩定的落在 3%~7% 之間。 買進並長期持有仍是一個值得考慮的策略。
+#+END_EXAMPLE
