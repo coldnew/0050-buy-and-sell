@@ -28,12 +28,22 @@
 
 - [[http://www.p-shares.com/#/FundWeights/1066][元大台灣卓越50基金 - 詳細基金成份股]]
 
-* 參考 GitHub Repo
+* 參考 Repo
 
-列出開發過程中參考的一些 GitHub repo:
+列出開發過程中參考的一些 Repo:
 
 ** mobetat49008/python_option
 
 url: https://github.com/mobetat49008/python_option
 
 README 裡面有拉出一些證交所 API 的說明，值得參考一下。
+
+* 參考投影片
+
+列出開發過程中參考的一些投影片:
+
+** 使用 R 語言建立自己的演算法交易事業
+
+url: https://www.slideshare.net/tw_dsconf/r-71023024
+
+雖然是在講R語言，但是有些觀念還是值得看一下的。
