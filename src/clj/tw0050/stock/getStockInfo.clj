@@ -1,14 +1,12 @@
 (ns tw0050.stock.getStockInfo
   (:require [clj-http.client :as http]
             [hickory.core :as hickory]
-            [hickory.select :as se]))
+            [hickory.select :as se]
+            [tw0050.stock.datetime :as datetime]))
 
 ;; 
 
-(defn- unix-timestamp
-  "Create unix timestamp."
-  []
-  (System/currentTimeMillis))
+
 
 (defn- fetch-data
   "Common function to retrive data."
@@ -37,7 +35,7 @@
                  :query-params {:ex_ch "tse_t00.tw%7cotc_o00.tw%7ctse_FRMSA.tw"
                                 :json 1
                                 :delay 0
-                                :_ (unix-timestamp)}})
+                                :_ (datetime/unix-timestamp)}})
     ;; return the cookie data
     cs))
 
@@ -90,7 +88,7 @@
                                :query-params {:ex_ch ex_ch
                                               :json 1
                                               :delay 0
-                                              :_ (unix-timestamp)}})]
+                                              :_ (datetime/unix-timestamp)}})]
        (translate-keys ret)
        (throw (ex-info "getStockInfo failed." {:stock-id stock-id}))))))
 
