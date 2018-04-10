@@ -47,6 +47,12 @@ url: https://github.com/mobetat49008/python_option
 
 README 裡面有拉出一些證交所 API 的說明，值得參考一下。
 
+** weihautin/Stock_Bot
+
+url: https://github.com/weihautin/Stock_Bot
+
+看起來有一些值得參考的 python code.
+
 * 參考投影片
 
 列出開發過程中參考的一些投影片:
